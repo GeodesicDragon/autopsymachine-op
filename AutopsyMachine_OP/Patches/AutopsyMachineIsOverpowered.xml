@@ -1,0 +1,28 @@
+<Patch>
+
+	<!--SPEED PATCH-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="PRF_HOPM_AutopsyMachine"]/comps/li[@Class="ProjectRimFactory.Common.CompProperties_PowerWorkSetting"]/powerPerStepSpeed</xpath>
+		<value>
+			<powerPerStepSpeed>5</powerPerStepSpeed>
+		</value>
+	</Operation>
+	
+	<!--RANGE PATCHES-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="PRF_HOPM_AutopsyMachine"]/comps/li[@Class="ProjectRimFactory.Common.CompProperties_PowerWorkSetting"]/floatrange_Range</xpath>
+		<value>
+			<floatrange_Range>1~256</floatrange_Range>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="PRF_HOPM_AutopsyMachine"]/comps/li[@Class="ProjectRimFactory.Common.CompProperties_PowerWorkSetting"]/powerPerStepRange</xpath>
+		<value>
+			<powerPerStepRange>5</powerPerStepRange>
+		</value>
+	</Operation>
+
+</Patch>
