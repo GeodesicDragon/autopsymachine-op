@@ -31,9 +31,11 @@
 	</loadAfter>
 	<description><![CDATA[<b>ABOUT</b>
 	
-Patches some aspects of the Autopsy Machine to make it stupidly overpowered.
+Patches the Autopsy Machine to make it stupidly overpowered.
 
-- Work range can be overclocked up to 256 tiles, which is enough to cover the entirety of a normal sized map.
-- Increasing the range now uses an extra 5W of power per step instead of 200.
-- Increasing the work speed now uses an extra 50W of power per step instead of 250.]]></description>
+- Work range can be overclocked up to 384 tiles, which is enough to cover the entirety of a normal sized map.
+- Base power consumption is reduced to just 1W instead of 1000W.
+- Build cost is changed to a single piece of steel instead of 4 robotic arms, a medium machine frame and a basic AI chip.
+- Increasing the range now uses an extra 1W of power per step instead of 200.
+- Increasing the work speed now uses an extra 1W of power per step instead of 250.]]></description>
 </ModMetaData>

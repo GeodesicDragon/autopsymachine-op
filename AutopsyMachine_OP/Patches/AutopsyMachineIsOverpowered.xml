@@ -1,11 +1,31 @@
 <Patch>
 
+	<!--BASE POWER USAGE-->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="PRF_HOPM_AutopsyMachine"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+		<value>
+			<basePowerConsumption>1</basePowerConsumption>
+		</value>
+	</Operation>
+
+	<!--BUILD COST-->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName="PRF_HOPM_AutopsyMachine"]/costList</xpath>
+		<value>
+			<costList>
+				<Steel>1</Steel>
+			</costList>
+		</value>
+	</Operation>
+
 	<!--SPEED PATCH-->
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="PRF_HOPM_AutopsyMachine"]/comps/li[@Class="ProjectRimFactory.Common.CompProperties_PowerWorkSetting"]/powerPerStepSpeed</xpath>
 		<value>
-			<powerPerStepSpeed>5</powerPerStepSpeed>
+			<powerPerStepSpeed>1</powerPerStepSpeed>
 		</value>
 	</Operation>
 	
@@ -14,14 +34,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="PRF_HOPM_AutopsyMachine"]/comps/li[@Class="ProjectRimFactory.Common.CompProperties_PowerWorkSetting"]/floatrange_Range</xpath>
 		<value>
-			<floatrange_Range>1~256</floatrange_Range>
+			<floatrange_Range>1~384</floatrange_Range>
 		</value>
 	</Operation>
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="PRF_HOPM_AutopsyMachine"]/comps/li[@Class="ProjectRimFactory.Common.CompProperties_PowerWorkSetting"]/powerPerStepRange</xpath>
 		<value>
-			<powerPerStepRange>5</powerPerStepRange>
+			<powerPerStepRange>1</powerPerStepRange>
 		</value>
 	</Operation>
 

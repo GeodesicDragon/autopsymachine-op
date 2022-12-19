@@ -1,3 +1,11 @@
+Version 1.2.4 (December 19th 2022)
+
+* Added a patch which reduces the base power usage of an autopsy machine to 1W.
+* Added a patch which changes the build cost of an autopsy machine to a single piece of steel.
+* Reduced the power cost of increasing the work speed to 1W per step (was 5W).
+* Reduced the power cost of increasing the work range to 1W per step (was 5W).
+* Increased the maximum work range to 384 tiles (was 256).
+
 Version 1.0.1 (November 19th 2022)
 
 * Initial release.
